@@ -76,3 +76,12 @@ To Apply service.yaml
 ```sh
 kubectl apply -f service.yaml
 ```
+
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/110477025/210777006-6ba03c54-4a2f-462c-bb48-14fb6176cc91.png)
+
+
+
+
