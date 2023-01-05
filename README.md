@@ -1,7 +1,7 @@
 # EKSCTL-DEMO-TODO
 
 #### Pre-requisites: 
-  - an EC2 Instance 
+  - an EC2 Instance (Note : If Using Ubuntu EC2 Instance instead of Amazon Linux then Make Sure to have **aws-iam-authenticator** installed.
 
 #### AWS EKS Setup 
 1. Setup kubectl   
@@ -81,6 +81,16 @@ kubectl apply -f service.yaml
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/110477025/210777006-6ba03c54-4a2f-462c-bb48-14fb6176cc91.png)
+
+
+![image](https://user-images.githubusercontent.com/110477025/210777445-8e9dfb45-4983-4e54-8be7-b506207f105c.png)
+
+
+![image](https://user-images.githubusercontent.com/110477025/210777477-f7bcd5df-5e47-468d-ab80-d88677b6b37b.png)
+
+
+![image](https://user-images.githubusercontent.com/110477025/210777531-5f000aba-556d-457e-b01a-27255c6b48a4.png)
+
 
 
 
