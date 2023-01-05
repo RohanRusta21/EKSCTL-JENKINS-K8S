@@ -31,7 +31,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.h
    eksctl version
    ```
   
-3. Create an IAM Role and attache it to EC2 instance    
+3. Create an IAM Role and attach it to EC2 instance    
    `Note: create IAM user with programmatic access if your bootstrap system is outside of AWS`   
    IAM user should have access to   
    IAM   
