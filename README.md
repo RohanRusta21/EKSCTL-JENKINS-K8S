@@ -1,7 +1,7 @@
 # EKSCTL-DEMO-TODO
 
 #### Pre-requisites: 
-  - an EC2 Instance (Note : If Using Ubuntu EC2 Instance instead of Amazon Linux then Make Sure to have **aws-iam-authenticator** installed.
+  - an EC2 Instance (Note : If Using Ubuntu EC2 Instance instead of Amazon Linux then Make Sure to have **aws-iam-authenticator** installed.)
 
 
 #### Article to Install aws-iam-authenticator :
