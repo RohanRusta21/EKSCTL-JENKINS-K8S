@@ -83,6 +83,15 @@ kubectl apply -f service.yaml
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/110477025/210777883-4eafd817-64ce-4ade-8952-7d6cab8a9d81.png">
 
 
+![image](https://user-images.githubusercontent.com/110477025/210777995-c1308f1a-0b75-4c59-96ee-c5f1be7b3fff.png)
+
+
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/110477025/210778102-3ebf4770-6fb3-4b82-bf51-ade2c330c52b.png">
+
+
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/110477025/210778171-c04f3b85-dd77-48ae-892e-b750b6307353.png">
+
+
 
 
 
