@@ -3,6 +3,12 @@
 #### Pre-requisites: 
   - an EC2 Instance (Note : If Using Ubuntu EC2 Instance instead of Amazon Linux then Make Sure to have **aws-iam-authenticator** installed.
 
+
+#### Article to Install aws-iam-authenticator :
+'''sh
+https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+'''
+
 #### AWS EKS Setup 
 1. Setup kubectl   
    a. Download kubectl  
