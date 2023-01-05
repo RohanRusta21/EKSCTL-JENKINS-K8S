@@ -43,7 +43,11 @@
    --zones <AZ-1>,<AZ-2>
    
    example:
-   eksctl create cluster 
+   eksctl create cluster --name todo-cluster \
+   --region ap-south-1 \
+   --node-type t2.small \
+   --nodes-min 2 \
+   --nodes-max 2
     ```
 
 
