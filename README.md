@@ -5,9 +5,9 @@
 
 
 #### Article to Install aws-iam-authenticator :
-'''sh
+```sh
 https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
-'''
+```
 
 #### AWS EKS Setup 
 1. Setup kubectl   
