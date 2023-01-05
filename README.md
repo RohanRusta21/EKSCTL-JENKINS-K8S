@@ -84,7 +84,7 @@ kubectl apply -f service.yaml
 ```
 
 
-## Screenshots
+## Screenshots ( Whole Process Can take 20-25 Minutes which is normal in creating Cluster)
 
 <img width="548" alt="image" src="https://user-images.githubusercontent.com/110477025/210777883-4eafd817-64ce-4ade-8952-7d6cab8a9d81.png">
 
