@@ -15,7 +15,7 @@ spec:
         app: todo-example
     spec:
       containers:
-      - image: public.ecr.aws/w1u8s8d4/my-eks-demo:latest
+      - image: public.ecr.aws/w1u8s8d4/my-eks-demo
         name: todo-example
         ports:
-        - containerPort: 8080
+        - containerPort: 8000
