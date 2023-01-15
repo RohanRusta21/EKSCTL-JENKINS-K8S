@@ -18,4 +18,4 @@ spec:
       - image: public.ecr.aws/w1u8s8d4/my-eks-demo
         name: todo-example
         ports:
-        - containerPort: 8090
+        - containerPort: 8080
