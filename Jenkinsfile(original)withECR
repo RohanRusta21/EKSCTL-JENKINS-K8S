@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+    
+    environment {
+        registery = "public.ecr.aws/w1u8s8d4/my-eks-demo"
+    }
+
+    stages {
+        stage('code checkout') {
+            steps {
+                checkout scmGit(branches: [[name: '*/new']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/RohanRusta21/EKSCTL-JENKINS-K8S.git']])
+                
+            }
+        }
+        stage('build docker image'){
+            steps{
+                script{
+                    customImage = docker.build registery
+                }
+            }
+        }
+        stage('push the image into ECR'){
+            steps{
+                sh 'aws ecr-public get-login-password --region us-east-1 | docker login --username AWS --password-stdin public.ecr.aws/w1u8s8d4'
+                sh 'docker push public.ecr.aws/w1u8s8d4/my-eks-demo:latest'
+            }
+        }
+        stage('deploy on k8s'){
+            steps{
+                withKubeConfig(caCertificate: '', clusterName: '', contextName: '', credentialsId: 'Kube', namespace: '', restrictKubeConfigAccess: false, serverUrl: '') {
+                    sh "kubectl apply -f dep.yaml"
+                    sh "kubectl apply -f serv.yaml"
+                }
+            }
+        }
+    }
+}
